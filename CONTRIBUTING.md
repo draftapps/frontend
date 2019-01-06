@@ -1,6 +1,6 @@
-# Contributing to react-boilerplate
+# Contributing to Draftapp
 
-Love react-boilerplate and want to help? Thanks so much, there's something to do for everybody!
+Love Draftapp and want to help? Thanks so much, there's something to do for everybody!
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
@@ -8,7 +8,7 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/react-boilerplate/react-boilerplate/issues) is
+The [issue tracker](https://github.com/draftapps/frontend/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests).
 
@@ -82,11 +82,11 @@ included in the project:
 
     ```bash
     # Clone your fork of the repo into the current directory
-    git clone https://github.com/<your-username>/react-boilerplate.git
+    git clone https://github.com/draftapps/frontend.git
     # Navigate to the newly cloned directory
-    cd react-boilerplate
+    cd frontend
     # Assign the original repo to a remote called "upstream"
-    git remote add upstream https://github.com/react-boilerplate/react-boilerplate.git
+    git remote add upstream https://github.com/draftapps/frontend.git
     ```
 
 2.  If you cloned a while ago, get the latest changes from upstream:
@@ -120,7 +120,7 @@ included in the project:
     with a clear title and description.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project
-owners to license your work under the terms of the [MIT License](https://github.com/react-boilerplate/react-boilerplate/blob/master/LICENSE.md).
+owners to license your work under the terms of the [MIT License](https://github.com/draftapps/frontend/blob/master/LICENSE.md).
 
 # Collaborating guidelines
 
