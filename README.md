@@ -50,29 +50,28 @@
   <sub>Want to join? Please send us your email <a href="https://wazery.typeform.com/to/zYPrZl">here</a>, so we can add you</sub>
 </div>
 
-
 ## Features
 
 <dl>
   <dt>Sketch and Photoshop integration, you can export your designs with single click</dt>
   <dd>With Draft’s Sketch and Photoshop plugins, you will be able to export your designs to Draft with a single click. Also if you want to update them, you will do that straight from Sketch or Photoshop, just hit the sync button.</dd>
-  <p align="center"><img src="https://www.draftapp.io/assets/2x/plugins.png" alt="Plugins" /></p>
+  <p align="center"><img src="https://www.draftapp.io/assets/2x/plugins.png" alt="Plugins" width="40%" height="40%" /></p>
 
   <dt>No need to export your design assets anymore</dt>
   <dd>With Draft, you will not need to export any of your design assets anymore. Draft will get that after you import your designs.</dd>
-    <p align="center"><img src="https://www.draftapp.io/assets/2x/export-size.png" alt="Plugins" /></p>
+    <p align="center"><img src="https://www.draftapp.io/assets/2x/export-size.png" alt="Plugins" width="40%" height="40%" /></p>
 
   <dt>Get a perfect style guide in just seconds</dt>
   <dd>Once you import all of your screens, you will get a perfect style guide that can be downloaded or shared with anyone with a public link or you can change the link privacy so specific people can see it.</dd>
-    <p align="center"><img src="https://www.draftapp.io/assets/2x/styleguide.png" alt="Plugins" /></p>
+    <p align="center"><img src="https://www.draftapp.io/assets/2x/styleguide.png" alt="Plugins" width="40%" height="40%" /></p>
 
   <dt>Get instant feedback on your designs from your team members</dt>
   <dd>Anyone on your team can create a note on your design screens, and you can reply to any note created. Also you can mark it as resolved or leave it so you can keep track of your feedback progress.</dd>
-    <p align="center"><img src="https://www.draftapp.io/assets/2x/feedback.png" alt="Plugins" /></p>
+    <p align="center"><img src="https://www.draftapp.io/assets/2x/feedback.png" alt="Plugins" width="40%" height="40%" /></p>
 
   <dt>Get notified with Slack’s integration</dt>
   <dd>Integrate with Slack and get notified if someone left a note, you can get it directly and automatically into your Slack channel.</dd>
-      <p align="center"><img src="https://www.draftapp.io/assets/2x/slack-integration.png alt="Plugins" /></p>
+      <p align="center"><img src="https://www.draftapp.io/assets/2x/slack-integration.png" width="40%" height="40%" alt="Plugins" /></p>
 </dl>
 
 But wait... there's more!
@@ -93,11 +92,11 @@ There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on ho
 ## Quick start
 
 1.  Make sure that you have Node.js v8.10 and npm v5 or above installed.
-2.  Clone this repo using `git clone --depth=1 https://github.com/react-boilerplate/react-boilerplate.git <YOUR_PROJECT_NAME>`
-3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.<br />
-4.  Run `npm run setup` in order to install dependencies and clean the git repo.<br />
+2.  Clone this repo using `git clone https://github.com/draftapps/frontend.git`
+3.  Move to the appropriate directory: `cd frontend`.<br />
+4.  Run `yarn run setup` in order to install dependencies and clean the git repo.<br />
     _At this point you can run `npm start` to see the example app at `http://localhost:3000`._
-5.  Run `npm run clean` to delete the example app.
+5.  Run `yarn run clean` to delete the example app.
 
 Now you're ready to rumble!
 
