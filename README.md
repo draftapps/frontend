@@ -8,17 +8,13 @@
 <br />
 
 <div align="center">
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate.svg" alt="Dependency Status" />
+  <!-- Build Status -->
+  <a href="https://circleci.com/gh/draftapps/frontend/tree/dev">
+    <img src="https://circleci.com/gh/draftapps/frontend/tree/dev.svg?style=svg" alt="Build Status" />
   </a>
   <!-- devDependency Status -->
   <a href="https://david-dm.org/react-boilerplate/react-boilerplate#info=devDependencies">
     <img src="https://david-dm.org/react-boilerplate/react-boilerplate/dev-status.svg" alt="devDependency Status" />
-  </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/react-boilerplate/react-boilerplate">
-    <img src="https://travis-ci.org/react-boilerplate/react-boilerplate.svg" alt="Build Status" />
   </a>
   <!-- Test Coverage -->
   <a href="https://coveralls.io/r/react-boilerplate/react-boilerplate">

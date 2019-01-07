@@ -1,15 +1,13 @@
-FROM node:8-slim
+FROM node:lts-alpine
 
-ENV KARMA_BROWSER PhantomJS
-
-WORKDIR /reactapp
+WORKDIR /draftapp_fe
 
 ADD package.json package.json
-RUN npm install
+RUN yarn install
 ADD . .
 
-VOLUME /reactapp
+VOLUME /draftapp_fe
 
 EXPOSE 3000
 
-CMD ["npm", "run", "start:production"]
+CMD ["yarn", "run", "start:production"]
