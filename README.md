@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="https://github.com/draftapps/frontend/blob/dev/logo.png" alt="Draftapp logo"/>
+  <img src="https://github.com/draftapps/frontend/blob/dev/.github/logo.png?raw=true" alt="Draftapp logo"/>
 </p>
 
 <br />
 
-<div align="center"><strong>Start your next react project in seconds</strong></div>
-<div align="center">A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices</div>
+<div align="center"><strong>Simple collaborative tool for designers and developers - open source and free!</strong></div>
+<div align="center">
+  Draft helps you to collaborate faster, generate instantly exportable assets, automated code snippets, manage your projects, assign tasks, share and discuss feedback on your designs.
+</div>
 
 <br />
 
@@ -44,7 +46,7 @@
 <br />
 
 <div align="center">
-  <sub>Created by <a href="https://twitter.com/mxstbr">Max Stoiber</a> and maintained with ❤️ by an amazing <a href="https://github.com/orgs/react-boilerplate/teams/core">team of developers</a>.</sub>
+  <sub>Maintained with ❤️ by an amazing <a href="https://github.com/orgs/draftapps/teams/frontend">team of developers</a>. Want to join? Please send us your <a href="https://wazery.typeform.com/to/zYPrZl">email</a> here so we can add you</sub>
 </div>
 
 ## Features
