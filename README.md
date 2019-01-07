@@ -56,21 +56,23 @@
 <dl>
   <dt>Sketch and Photoshop integration, you can export your designs with single click</dt>
   <dd>With Draft’s Sketch and Photoshop plugins, you will be able to export your designs to Draft with a single click. Also if you want to update them, you will do that straight from Sketch or Photoshop, just hit the sync button.</dd>
+  <p align="center"><img src="https://www.draftapp.io/assets/2x/plugins.png" alt="Plugins" /></p>
 
   <dt>No need to export your design assets anymore</dt>
   <dd>With Draft, you will not need to export any of your design assets anymore. Draft will get that after you import your designs.</dd>
+    <p align="center"><img src="https://www.draftapp.io/assets/2x/export-size.png" alt="Plugins" /></p>
 
   <dt>Get a perfect style guide in just seconds</dt>
   <dd>Once you import all of your screens, you will get a perfect style guide that can be downloaded or shared with anyone with a public link or you can change the link privacy so specific people can see it.</dd>
+    <p align="center"><img src="https://www.draftapp.io/assets/2x/styleguide.png" alt="Plugins" /></p>
 
   <dt>Get instant feedback on your designs from your team members</dt>
   <dd>Anyone on your team can create a note on your design screens, and you can reply to any note created. Also you can mark it as resolved or leave it so you can keep track of your feedback progress.</dd>
-
-  <dt>Next generation CSS</dt>
-  <dd>Write composable CSS that's co-located with your components for complete modularity. Unique generated class names keep the specificity low while eliminating style clashes. Ship only the styles that are on the page for the best performance.</dd>
+    <p align="center"><img src="https://www.draftapp.io/assets/2x/feedback.png" alt="Plugins" /></p>
 
   <dt>Get notified with Slack’s integration</dt>
   <dd>Integrate with Slack and get notified if someone left a note, you can get it directly and automatically into your Slack channel.</dd>
+      <p align="center"><img src="https://www.draftapp.io/assets/2x/slack-integration.png alt="Plugins" /></p>
 </dl>
 
 But wait... there's more!
