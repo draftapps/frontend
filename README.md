@@ -38,49 +38,39 @@
   <a href="#sponsors">
     <img src="https://opencollective.com/react-boilerplate/sponsors/badge.svg" alt="Sponsors" />
   </a>
-  <a href="http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-boilerplate">
-    <img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" />
-  </a>
 </div>
 
 <br />
 
 <div align="center">
-  <sub>Maintained with ❤️ by an amazing <a href="https://github.com/orgs/draftapps/teams/frontend">team of developers</a>. Want to join? Please send us your <a href="https://wazery.typeform.com/to/zYPrZl">email</a> here so we can add you</sub>
+  <sub>Maintained with ❤️by an amazing <a href="https://github.com/orgs/draftapps/teams/frontend">team of developers</a>.</sub>
 </div>
+
+<div align="center">
+  <sub>Want to join? Please send us your email <a href="https://wazery.typeform.com/to/zYPrZl">here</a>, so we can add you</sub>
+</div>
+
 
 ## Features
 
 <dl>
-  <dt>Quick scaffolding</dt>
-  <dd>Create components, containers, routes, selectors and sagas - and their tests - right from the CLI!</dd>
+  <dt>Sketch and Photoshop integration, you can export your designs with single click</dt>
+  <dd>With Draft’s Sketch and Photoshop plugins, you will be able to export your designs to Draft with a single click. Also if you want to update them, you will do that straight from Sketch or Photoshop, just hit the sync button.</dd>
 
-  <dt>Instant feedback</dt>
-  <dd>Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page. Preserve application state even when you update something in the underlying code!</dd>
+  <dt>No need to export your design assets anymore</dt>
+  <dd>With Draft, you will not need to export any of your design assets anymore. Draft will get that after you import your designs.</dd>
 
-  <dt>Predictable state management</dt>
-  <dd>Unidirectional data flow allows for change logging and time travel debugging.</dd>
+  <dt>Get a perfect style guide in just seconds</dt>
+  <dd>Once you import all of your screens, you will get a perfect style guide that can be downloaded or shared with anyone with a public link or you can change the link privacy so specific people can see it.</dd>
 
-  <dt>Next generation JavaScript</dt>
-  <dd>Use template strings, object destructuring, arrow functions, JSX syntax and more.</dd>
+  <dt>Get instant feedback on your designs from your team members</dt>
+  <dd>Anyone on your team can create a note on your design screens, and you can reply to any note created. Also you can mark it as resolved or leave it so you can keep track of your feedback progress.</dd>
 
   <dt>Next generation CSS</dt>
   <dd>Write composable CSS that's co-located with your components for complete modularity. Unique generated class names keep the specificity low while eliminating style clashes. Ship only the styles that are on the page for the best performance.</dd>
 
-  <dt>Industry-standard routing</dt>
-  <dd>It's natural to want to add pages (e.g. `/about`) to your application, and routing makes this possible.</dd>
-
-  <dt>Industry-standard i18n internationalization support</dt>
-  <dd>Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.</dd>
-
-  <dt>Offline-first</dt>
-  <dd>The next frontier in performant web apps: availability without a network connection from the instant your users load the app.</dd>
-
-  <dt>Static code analysis</dt>
-  <dd>Focus on writing new features without worrying about formatting or code quality. With the right editor setup, your code will automatically be formatted and linted as you work.</dd>
-
-  <dt>SEO</dt>
-  <dd>We support SEO (document head tags management) for search engines that support indexing of JavaScript content. (eg. Google)</dd>
+  <dt>Get notified with Slack’s integration</dt>
+  <dd>Integrate with Slack and get notified if someone left a note, you can get it directly and automatically into your Slack channel.</dd>
 </dl>
 
 But wait... there's more!
