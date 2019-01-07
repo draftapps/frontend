@@ -1,15 +1,12 @@
 # Maintainers
 
-- mxstbr
-- oliverturner
-- justingreenberg
-- gihrig
-- sedubois
-- chaintng
-- samit4me
-- amilajack
-- Dattaya
-- jwinn
-- KarandikarMihir
-- gretzky
-- julienben
+- wazery
+- Lucianolo
+- xquangdang
+- MuhammadYossry
+- ZeeshanTamboli
+- tanyehzheng
+- SimplyCodin
+- agusnavce
+- ahmadalfy
+- aboelnaga
