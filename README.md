@@ -1,4 +1,4 @@
-<img src="https://github.com/draftapps/frontend/blob/dev/.github/logo.png?raw=true" alt="Draftapp logo" align="center" />
+<img src="https://github.com/draftapps/frontend/blob/dev/logo.png" alt="Draftapp logo" align="center" />
 
 <br />
 
