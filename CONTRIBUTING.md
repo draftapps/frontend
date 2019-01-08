@@ -6,6 +6,10 @@ Please take a moment to review this document in order to make the contribution p
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches and features.
 
+## Documentation
+
+[Here you can find](https://github.com/draftapps/frontend/tree/dev/docs) a good entry point docs, in which you can get familiar with the project stack and tools.
+
 ## Using the issue tracker
 
 The [issue tracker](https://github.com/draftapps/frontend/issues) is
