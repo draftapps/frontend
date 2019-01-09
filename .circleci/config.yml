@@ -29,3 +29,11 @@ jobs:
         
       # run tests!
       - run: yarn test
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - run:
+          name: Build and push Docker image
+          command: |
+            docker build -t draftapp/$IMAGE_NAME:$TAG .
+            echo $DOCKER_PWD | docker login -u $DOCKER_LOGIN --password-stdin
+            docker push draftapp/$IMAGE_NAME:$TAG
