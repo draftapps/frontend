@@ -1,8 +1,15 @@
 import React from 'react';
-import LoginForm from 'components/LoginForm';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+
+import { login } from './actions';
 
 /* eslint-disable react/prefer-stateless-function */
-export default class LoginPage extends React.PureComponent {
+class LoginPage extends React.PureComponent {
+  static propTypes = {
+    login: PropTypes.func.isRequired,
+  };
+
   state = {
     username: '',
     password: '',
@@ -10,7 +17,7 @@ export default class LoginPage extends React.PureComponent {
 
   handleSubmit = event => {
     event.preventDefault();
-    console.log('Submitted: ', this.state);
+    this.props.login(this.state);
   };
 
   handleChange = event => {
@@ -19,13 +26,45 @@ export default class LoginPage extends React.PureComponent {
 
   render() {
     const { username, password } = this.state;
+
     return (
-      <LoginForm
-        username={username}
-        password={password}
-        onSubmit={this.handleSubmit}
-        onChange={this.handleChange}
-      />
+      <form className="login-form" onSubmit={this.handleSubmit}>
+        <div className="login-form__field">
+          <label htmlFor="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+            value={username}
+            onChange={this.handleChange}
+            required
+          />
+        </div>
+        <div className="login-form__field">
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            value={password}
+            onChange={this.handleChange}
+            required
+          />
+        </div>
+        <button type="submit">Login</button>
+      </form>
     );
   }
 }
+
+const mapStateToProps = state => ({
+  username: state.username,
+  password: state.password,
+});
+
+export default connect(
+  mapStateToProps,
+  { login },
+)(LoginPage);
