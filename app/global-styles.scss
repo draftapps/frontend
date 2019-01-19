@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+
 html,
 body {
   height: 100%;
@@ -5,7 +7,15 @@ body {
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.3;
+  color: #a1a6bb;
+  background: #e4e7ef;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body.fontLoaded {
@@ -22,4 +32,36 @@ p,
 label {
   font-family: Georgia, Times, 'Times New Roman', serif;
   line-height: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #3a405b;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+p {
+  font-size: inherit;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+}
+
+section {
+  display: block;
+}
+
+.u-padding-v-xlarge {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

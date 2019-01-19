@@ -1,0 +1,80 @@
+.c-contact {
+  text-align: center;
+  form {
+    max-width: 400px;
+    margin: 40px auto;
+  }
+  h1 {
+    font-size: 2.4rem;
+    line-height: 1;
+  }
+  input,
+  textarea {
+    font-size: 16px;
+  }
+  textarea {
+    height: 125px;
+    padding: 0.7em;
+    max-width: 100%;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #dee0e9;
+    margin: 0 0 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #3a405b;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 2px;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  input[type='text'],
+  [type='email'] {
+    height: 2.9rem;
+    padding: 0.7em;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.4375rem;
+    padding: 0.5rem;
+    border: 1px solid #dee0e9;
+    margin: 0 0 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #3a405b;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 2px;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .button--block {
+    width: 100%;
+  }
+  .button--success {
+    background: #4be1ab;
+    color: #fff;
+  }
+
+  .button {
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 0.75em 1em;
+    margin: 0;
+    font-size: 1.1rem;
+  }
+}
