@@ -69,9 +69,8 @@ export default withFormik({
       .required('Email is required'),
     message: Yup.string().required('Message is required'),
   }),
-  handleSubmit: (values, { resetForm }) => {
+  handleSubmit: values => {
     // Handle http request here
     console.log(values);
-    setTimeout(resetForm(), 2000);
   },
 })(Contact);
