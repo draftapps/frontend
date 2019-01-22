@@ -12,6 +12,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
+import Contact from '../../components/Contact/index';
 
 import '../../global-styles.scss';
 
@@ -20,6 +21,7 @@ export default function App() {
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/contact" component={Contact} />
         <Route component={NotFoundPage} />
       </Switch>
     </div>
