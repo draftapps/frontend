@@ -69,8 +69,5 @@ export default withFormik({
       .required('Email is required'),
     message: Yup.string().required('Message is required'),
   }),
-  handleSubmit: values => {
-    // Handle http request here
-    console.log(values);
-  },
+  handleSubmit: () => {}, // TODO: Integrate Contact form API #13 ,
 })(Contact);
